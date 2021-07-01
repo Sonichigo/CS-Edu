@@ -1,0 +1,187 @@
+<html>
+
+<head>
+ <link rel = "icon" type = "images/png" href = "icon.png"/>
+ 
+<title>Contact Us | Send Your Querries...</title>
+
+<style>
+body{
+margin:0px;
+text-align:center;
+}
+#div{
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+height:100%;
+background: #353131;
+}
+
+h1{
+margin-top:1em;
+color:white;
+font-size:2.2em;
+}
+#cname{
+position:absolute;
+top:30%;
+left:17%;
+width: 700px;
+height:50px;
+background-color: rgba(255,255,255,0.15);
+font-size: 0.889em ;
+border-radius: 0.333em;
+padding-left:10px;
+border: 2px solid rgba(0, 0, 0, 0.1);
+color:white;
+}
+h3{
+position:absolute;
+top:22%;
+left:19%;
+color: #C7C7C7;
+}
+#dname{
+position:absolute;
+top:40%;
+left:17%;
+width: 700px;
+height:50px;
+background-color: rgba(255,255,255,0.15);
+font-size: 0.889em;
+border-radius: 0.333em;
+padding-left:10px;
+border: 2px solid rgba(0, 0, 0, 0.1);
+color:white;
+}
+#ename{
+position:absolute;
+top:50%;
+left:17%;
+width: 700px;
+height:50px;
+background-color: rgba(255,255,255,0.15);
+font-size: 0.889em;
+border-radius: 0.533em;
+padding-left:10px;
+border: 2px solid rgba(0, 0, 0, 0.1);
+color:white;
+}
+#cmessage{
+    background-color: rgba(255,255,255,0.15);
+    font-size: 17px;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.333em;
+	height: 09.72em;
+	position:absolute;
+	top:60%;
+	left:17%;
+	width: 700px;
+	padding-left:10px;
+}
+#cmessage:hover{
+border:2px solid white;
+}
+#ename:active{
+border:2px solid blue;
+}
+#dname:active{
+border:2px solid blue;
+}
+#cname:active{
+border:2px solid blue;
+}
+#ename:hover{
+border:2px solid white;
+}
+#dname:hover{
+border:2px solid white;
+}
+#cname:hover{
+border:2px solid white;
+}
+#btn{
+    padding: 0.667em 2em;
+	border-radius: 0.333em;
+    background-color: rgba(84,87,102,1);
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.788em !important;
+    font-family: 'Montserrat', sans-serif ;
+    line-height: 1.714em;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: button;
+    border-width: 0;
+	font-weight:bold;
+	position:absolute;
+	top:90%;
+	left:20%;
+	width:180px;
+	height:40px;
+	
+}
+#btn:hover{
+    padding: 0.667em 2em;
+	border-radius: 0.333em;
+    background-color: rgba(84,87,102,1);
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.788em !important;
+    font-family: 'Montserrat', sans-serif ;
+    line-height: 1.714em;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: button;
+    border-width: 0;
+	font-weight:bold;
+	position:absolute;
+	top:90%;
+	left:20%;
+	width:180px;
+	height:40px;
+	
+}
+#btn:hover{
+background:blue;
+transform:color;
+transition:2s;
+}
+#p{
+    position:absolute;
+	top:27%;
+	right:23%;
+    text-transform: uppercase;
+    font-size: 0.995rem;
+	color: #ccc;
+	font-weight: bold;
+}
+</style>
+<script type = "text/javascript">
+function doFirst(){
+	alert("Thank you for the details");
+}
+</script>
+</head>
+
+<body>
+<form name = "f1">
+ <div id = "div">
+ <br/>
+ <br/>
+ <h1>Contact Us</h1>
+ <h3 style = "font-family:monospace;font-size:20px;"><b>Help Us to solve your querries..</b></h3>
+ <input class="text" type="text" name="cname" placeholder="Your Name..." id="cname">
+  <input type="text" name="dname" placeholder="Your Email Address..." id="dname">
+  <input type="text" name="ename" placeholder="+98  &nbsp Your Phone Number..." id="ename">
+  <textarea class="plain buffer" name="cmessage" placeholder="Your Message Please..." id="cmessage"></textarea>
+ 
+ <button id = "btn" onclick = "doFirst()">send a message</button>
+
+ </div>
+</form>
+</body>
+
+</html>
